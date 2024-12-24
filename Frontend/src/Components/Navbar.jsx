@@ -26,7 +26,7 @@ const Navbar = () => {
                     <ul className={`lg:flex ${isMenuOpen ? 'block' : 'hidden'} lg:space-x-8 space-y-4 lg:space-y-0 py-4 lg:py-0`}>
                         <li>
                             <a
-                                href="upload-data"
+                                href="/"
                                 className="text-blue-600 font-semibold hover:bg-blue-600 hover:text-white px-4 py-2 rounded transition duration-300"
                             >
                                 Upload Data
