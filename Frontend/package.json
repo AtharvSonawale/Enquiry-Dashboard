@@ -12,7 +12,11 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
+    "xlsx": "^0.18.5"
+=======
     "react-router-dom": "^7.1.0"
+>>>>>>> 4336f3abfdd5c8f2591ce927b4a6c8e30096358a
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
