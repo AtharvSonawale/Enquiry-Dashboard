@@ -1,9 +1,10 @@
 import React from 'react'
 import {Route,Routes} from 'react-router-dom'
-import Navbar from './Components/Navbar'
+import Navbar from './Components/Navbar/Navbar'
 import EnquiryPage from './Pages/EnquiryPage'
 import UploadDataPage from './Pages/UploadDataPage'
 import SalesPage from './Pages/SalesPage'
+import HomePage from './Pages/HomePage'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     <Navbar />
     
     <Routes>
-			      <Route path="/" element={<UploadDataPage />} />
+            <Route path="/" element={<HomePage />} />
+			      <Route path="/api/data" element={<UploadDataPage />} />
 			      <Route path="/enquiry" element={<EnquiryPage />} />
 			      <Route path="/sales" element={<SalesPage />} />
 			</Routes>
