@@ -12,7 +12,7 @@ function App() {
     <Navbar />
     
     <Routes>
-			      <Route path="/" element={<UploadDataPage />} />
+			      <Route path="/upload-data" element={<UploadDataPage />} />
 			      <Route path="/enquiry" element={<EnquiryPage />} />
 			      <Route path="/sales" element={<SalesPage />} />
 			</Routes>
