@@ -37,6 +37,7 @@ app.post('/api/data', (req, res) => {
   });
 });
 
+<<<<<<< HEAD
 app.get('/api/enquiry', (req, res) => {
   const sql = `
     SELECT Status_Remark, COUNT(*) AS count
@@ -53,6 +54,8 @@ app.get('/api/enquiry', (req, res) => {
   });
 });
 
+=======
+>>>>>>> 002adc3f22b063eb90475d00ce49029baeb87d53
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
